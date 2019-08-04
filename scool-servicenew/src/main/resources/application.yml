@@ -1,0 +1,12 @@
+server:
+  port: 8081
+  
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/schooldbnew?createDatabaseIfNotExist=true
+    username: root
+    password: 
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true    
